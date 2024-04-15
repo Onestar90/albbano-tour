@@ -33,7 +33,7 @@ To change this template use File | Settings | File Templates.
 <section id="sub_visual">
     <div class="backgroundimg">
         <div class="visual_area"
-             style="background:url('../front_util/images/sub_visual03.jpg') no-repeat top center;"></div>
+             style="background:url('../front_util/images/sub_visual04.jpg') no-repeat top center;"></div>
     </div>
 </section>
 
@@ -77,6 +77,7 @@ To change this template use File | Settings | File Templates.
         </p>
     </div>
 
+    <link href="../front_util/css/style.dt_ori.daontheme_ver2_.03.css" rel="stylesheet" type="text/css">
 
     <div class="scontents">
         <div class="bg_vline"></div>
@@ -111,15 +112,19 @@ To change this template use File | Settings | File Templates.
                         <tbody>
                         <tr>
                             <th>주소</th>
-                            <td>서울특별시 강남구 테헤란로 132 8층 쌍용교육센터</td>
+                            <td>경상북도 경주시 태종로 685번길 6</td>
                         </tr>
                         <tr>
                             <th>전화</th>
                             <td>1588-1234, 02-3483-4632</td>
                         </tr>
                         <tr>
+                            <th>팩스</th>
+                            <td>054-743-6009</td>
+                        </tr>
+                        <tr>
                             <th>이메일</th>
-                            <td><a href="mailto:tour@albbanotour.co.kr">tour@albbanotour.co.kr</a></td>
+                            <td><a href="mailto:tour@cmtour.co.kr">tour@cmtour.co.kr</a></td>
                         </tr>
                         </tbody>
                     </table>
@@ -127,6 +132,7 @@ To change this template use File | Settings | File Templates.
             </div>
         </div>
     </div>
+
 </section>
 
 <%--footer_jsp_적용_시작--%>

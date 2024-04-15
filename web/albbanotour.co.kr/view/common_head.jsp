@@ -26,8 +26,6 @@
 <link rel="stylesheet" type="text/css" href="../front_util/css/jquery.fancybox.css">
 <link rel="stylesheet" href="../front_util/css/font-awesome.min.css">
 <link href="../front_util/css/common.dt_ori.daontheme_ver2_.03.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="../front_util/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <link rel="stylesheet" href="../front_util/css/swiper.min.css">
 <link rel="stylesheet" type="text/css" href="../front_util/css/slick.css"/>
 <link rel="stylesheet" href="../front_util/css/xeicon.min.css">
