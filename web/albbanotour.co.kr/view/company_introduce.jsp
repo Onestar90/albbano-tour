@@ -9,20 +9,12 @@
 <!doctype html>
 <html lang="ko">
 
-<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/png" href="../favicon.png"/>
-
     <title>회사소개 | 알빠노관광</title>
-    <link rel="stylesheet" href="../front_util/css/defaulta68a.css?ver=171222">
-
     <script>
         // 자바스크립트에서 사용하는 전역변수 선언
-        var g5_url = "../../../../index.html";
-        var g5_bbs_url = "../../../../bbs/index.html";
+        var g5_url = "index.html";
+        var g5_bbs_url = "index.html";
         var g5_is_member = "";
         var g5_is_admin = "";
         var g5_is_mobile = "";
@@ -31,30 +23,7 @@
         var g5_editor = "";
         var g5_cookie_domain = "";
     </script>
-    <script src="../js/jquery-1.8.3.min.js"></script>
-    <script src="../js/jquery.menua68a.js?ver=171222"></script>
-    <script src="../js/commona68a.js?ver=171222"></script>
-    <script src="../js/wresta68a.js?ver=171222"></script>
-    <script src="../js/placeholders.min.js"></script>
-
-    <script src="../js/jquery-3.2.1.min.js"></script>
-    <script src="../js/jquery.fancybox.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.css">
-
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-
-    <link href="../css/common.dt_ori.daontheme_ver2_.03.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script language="javascript" type="text/javascript" src="../js/gnb-jquery.easing.1.3.js"></script>
-    <link rel="stylesheet" href="../css/swiper.min.css">
-    <script src="../js/swiper.min.js"></script>
-    <script src="../js/swiper-animation.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
-    <script type="text/javascript" src="../js/slick.min.js"></script>
-    <link rel="stylesheet" href="../css/xeicon.min.css">
-    <link rel="stylesheet" href="../css/animate.css" type="text/css">
+    <%@ include file="common_head.jsp" %>
 </head>
 
 <body>
@@ -111,7 +80,7 @@
         <p class="eng"><em>알빠노관광</em> 소개 </p>
         <p class="stitle">세계적인 역사도시 경주를 <br class="sview">한눈에 볼 수 있는 알빠노관광</p>
         <div class="company">
-            <div class="ceo_img"><img src="../images/01.png"></div>
+            <div class="ceo_img"><img src="../front_util/images/01.png"></div>
             <div class="ceo_txt">
                 <h2>
                     안녕하십니까?<br>
