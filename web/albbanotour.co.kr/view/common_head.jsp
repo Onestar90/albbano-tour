@@ -53,7 +53,7 @@
 <!-- 외부 CSS 적용 끝 -->
 
 <!-- 파비콘 설정 -->
-<link rel="icon" type="image/png" href="../favicon.png"/>
+<link rel="icon" type="image/png" href="/favicon.png"/>
 
 <!-- 사이드바 폰트 시작 -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"

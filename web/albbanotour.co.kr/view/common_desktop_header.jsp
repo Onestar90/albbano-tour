@@ -84,7 +84,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="faq.html?fm_id=1" target="_self">자주 묻는 질문</a>
+                                        <a href="faq.jsp?fm_id=1" target="_self">자주 묻는 질문</a>
                                         <ul class="ul_3rd">
                                         </ul>
                                     </li>
