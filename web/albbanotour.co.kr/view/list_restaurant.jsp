@@ -82,6 +82,8 @@
         <p class="normal_txt"></p>
     </div>
 
+    <script src="../front_util/js/g_slide.js"></script>
+
     <div id="container">
         <section id="rolling_box" class="clearfix">
             <div class="con_title wow fadeInUp" id="unique_con_title">
@@ -115,7 +117,7 @@
                 </div>
             </div>
         </section>
-        <script src="../front_util/js/g_slide.js"></script>
+
     </div>
 </section>
 
@@ -130,6 +132,7 @@
 <%@ include file="common_lower_container.jsp" %>
 
 <%--스크롤_애니메이션_리셋--%>
+<script src="../front_util/js/wow.min.js"></script>
 <script> new WOW().init(); </script>
 </body>
 </html>
