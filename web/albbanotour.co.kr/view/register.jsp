@@ -70,7 +70,7 @@ To change this template use File | Settings | File Templates.
                             <li><a href="policy.jsp?co_id=privacy" target="_self">개인정보처리방침</a></li>
 
 
-                            <li><a href="service_terms.html?co_id=provision" target="_self">이용약관</a></li>
+                            <li><a href="service_terms.jsp?co_id=provision" target="_self">이용약관</a></li>
 
 
                         </ul>
