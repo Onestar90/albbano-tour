@@ -98,7 +98,7 @@
                     <ul class="subnav">
                         <li><a href="tour_course.jsp" target="_self">- 투어 코스</a></li>
                         <li><a href="booking.jsp" target="_self">- 투어 예약</a></li>
-                        <li><a href="reservation.jsp" target="_self">- 예약 확인</a></li>
+                        <li><a href="list_reservation.jsp" target="_self">- 예약 확인</a></li>
                     </ul>
                 </li>
 
