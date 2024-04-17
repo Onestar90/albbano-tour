@@ -63,7 +63,7 @@
                         <ul>
                             <li><a href="tour_course.html" target="_self">투어코스</a></li>
                             <li><a href="booking.jsp" target="_self">투어예약</a></li>
-                            <li><a href="reservation.html" target="_self">예약확인</a></li>
+                            <li><a href="reservation.jsp" target="_self">예약확인</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -96,7 +96,7 @@
                     <ul class="nav nav-tabs">
                         <li role="presentation" class="active"><a href="booking.jsp">실시간예약</a>
                         </li>
-                        <li role="presentation" class=""><a href="reservation.html">예약확인/취소</a></li>
+                        <li role="presentation" class=""><a href="reservation.jsp">예약확인/취소</a></li>
                     </ul>
                     <p class="button-list">
                     </p>

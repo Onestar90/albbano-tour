@@ -66,7 +66,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="reservation.html" target="_self">예약 확인</a>
+                                        <a href="reservation.jsp" target="_self">예약 확인</a>
                                         <ul class="ul_3rd">
                                         </ul>
                                     </li>
