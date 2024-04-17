@@ -28,7 +28,7 @@
 
     <div id="gnba">
         <div style="margin-top:10px; margin-bottom:10px;">
-            <a href="login.html">로그인</a>
+            <a href="login.jsp">로그인</a>
             <a href="register.html">회원가입</a>
         </div>
     </div>

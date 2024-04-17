@@ -1,27 +1,15 @@
-<!doctype html>
+<%--
+Created by IntelliJ IDEA.
+User: potatomoong
+Date: 2024-04-17
+Time: 오전 11:17
+To change this template use File | Settings | File Templates.
+--%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
 <html lang="ko">
-
-<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport"
-          content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/png" href="/favicon.png"/>
-    <!--사이드바 폰트 시작-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!--사이드바 폰트 종료-->
-
-    <meta name="naver-site-verification" content="0e3af650067e8a084d6470395c1b6e6b9632c958"/>
-    <meta name="google-site-verification=X8XvbsCac2XHlVJOKH98dT04BFPfK57Q97_MbKLahI8">
     <title>로그인 | 알빠노관광</title>
-    <link rel="stylesheet" href="../css/defaulta68a.css?ver=171222">
-    <link rel="stylesheet" href="../css/stylea685a.css?ver=171222">
-    <link rel="stylesheet" href="../skin/social/stylea68a.css?ver=171222">
-
-
-    <script src="https://cmtour.co.kr/js/html5.js"></script>
 
     <script>
         var g5_url = "../index.html";
@@ -34,39 +22,9 @@
         var g5_editor = "";
         var g5_cookie_domain = "";
     </script>
-    <script src="../js/jquery-1.8.3.min.js"></script>
-    <script src="../js/jquery.menua68a.js?ver=171222"></script>
-    <script src="../js/commona68a.js?ver=171222"></script>
-    <script src="../js/wresta68a.js?ver=171222"></script>
-    <script src="../js/placeholders.min.js"></script>
-
-    <script src="../js/jquery-3.2.1.min.js"></script>
-    <script src="../js/jquery.fancybox.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.css">
-
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <meta name="format-detection" content="telephone=no"/>
-
-    <link href="../css/common.dt_ori.daontheme_ver2_.03.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script language="javascript" type="text/javascript"
-            src="../js/gnb-jquery.easing.1.3.js"></script>
-    <link rel="stylesheet" href="../css/swiper.min.css">
-    <script src="../js/swiper.min.js"></script>
-    <script src="../js/swiper-animation.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
-    <script type="text/javascript" src="../js/slick.min.js"></script>
-    <link rel="stylesheet" href="../css/xeicon.min.css">
-
-    <link rel="stylesheet" href="../css/animate.css" type="text/css">
-    <script src="../theme/albbanotour/html/css_js/jquery.mb.YTPlayer.js"></script>
-    <script type="text/javascript" src="../../wcs.naver.net/wcslog.js"></script>
-    <script type="text/javascript">if (!wcs_add) var wcs_add = {};
-    wcs_add["wa"] = "analyticskey";
-    wcs_do();</script>
+    <%@ include file="common_head.jsp" %>
 </head>
+
 <body>
 
 <!-- 로그인 시작 { -->
@@ -75,7 +33,7 @@
         <h1>로그인</h1>
 
         <div><a href="index.jsp"><h2 style="font-size: 2rem; margin: 20px auto"><img
-                src="../images/top_logo.png" alt="처음으로 "></h2></a></div>
+                src="../front_util/images/top_logo.png" alt="처음으로 "></h2></a></div>
 
         <div class="mb_log_cate">
             <h2>로그인 </h2>
@@ -128,7 +86,8 @@
 <!-- } 로그인 끝 -->
 
 
-<script src="../js/wow.min.js"></script>
+<%--스크롤_애니메이션_리셋--%>
+<script src="../front_util/js/wow.min.js"></script>
 <script> new WOW().init(); </script>
 
 </body>
