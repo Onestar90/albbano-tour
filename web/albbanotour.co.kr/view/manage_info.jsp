@@ -45,7 +45,7 @@
                     <li>
                         <span></span>
                         <ul>
-                            <li><a href="tour_course.html" target="_self">관광지</a></li>
+                            <li><a href="tour_course.jsp" target="_self">관광지</a></li>
                             <li><a href="booking.jsp?bo_table=booking" target="_self">맛집</a></li>
                             <li><a href="../theme/albbanotour/html/business/map_info_01.html" target="_self">투어예약</a></li>
                             <li><a href="main_notice.jsp?bo_table=notice" target="_self">고객센터</a></li>

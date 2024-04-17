@@ -53,10 +53,10 @@
                             <li></li>
 
                             <li>
-                                <a href="tour_course.html" target="_self">투어예약</a>
+                                <a href="tour_course.jsp" target="_self">투어예약</a>
                                 <ul class="ul_2nd">
                                     <li>
-                                        <a href="tour_course.html" target="_self">투어 코스</a>
+                                        <a href="tour_course.jsp" target="_self">투어 코스</a>
                                         <ul class="ul_3rd">
                                         </ul>
                                     </li>

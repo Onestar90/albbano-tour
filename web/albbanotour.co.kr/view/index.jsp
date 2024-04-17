@@ -122,7 +122,7 @@
     </section>
     <section>
         <div class="con_title wow fadeInUp mobile_view">
-            <a href="tour_course.html">
+            <a href="tour_course.jsp">
                 <img src="../front_util/images/tour_btn.jpg" alt="관광지"
                      width="100%"></a>
         </div>

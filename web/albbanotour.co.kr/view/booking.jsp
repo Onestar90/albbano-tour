@@ -61,7 +61,7 @@
                     <li>
                         <span>투어예약</span>
                         <ul>
-                            <li><a href="tour_course.html" target="_self">투어코스</a></li>
+                            <li><a href="tour_course.jsp" target="_self">투어코스</a></li>
                             <li><a href="booking.jsp" target="_self">투어예약</a></li>
                             <li><a href="reservation.jsp" target="_self">예약확인</a></li>
                         </ul>

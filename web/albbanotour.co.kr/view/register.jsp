@@ -48,7 +48,7 @@ To change this template use File | Settings | File Templates.
                     <li>
                         <span>맴버쉽</span>
                         <ul>
-                            <li><a href="tour_course.html" target="_self">관광지</a></li>
+                            <li><a href="tour_course.jsp" target="_self">관광지</a></li>
                             <li><a href="booking.jsp?bo_table=booking" target="_self">맛집</a></li>
                             <li><a href="../theme/albbanotour/html/business/map_info_01.html" target="_self">투어예약</a>
                             </li>
