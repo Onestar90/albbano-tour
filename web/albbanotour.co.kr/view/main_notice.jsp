@@ -299,7 +299,7 @@ To change this template use File | Settings | File Templates.
 
                                 <div class="bo_tit">
 
-                                    <a href="notice01.html?bo_table=notice&amp;wr_id=33">
+                                    <a href="desc_notice.jsp?bo_table=notice&amp;wr_id=33">
                                         2022년 투어요금 변경안내
                                     </a>
                                     <i class="fa fa-heart" aria-hidden="true"></i></div>
