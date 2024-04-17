@@ -2,14 +2,14 @@
 Created by IntelliJ IDEA.
 User: potatomoong
 Date: 2024-04-17
-Time: 오후 12:33
+Time: 오후 02:16
 To change this template use File | Settings | File Templates.
 --%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <title>공지사항 1 페이지 | 알빠노관광</title>
+    <title>질문답변 1 페이지 | 알빠노관광</title>
 
     <script>
         // 자바스크립트에서 사용하는 전역변수 선언
@@ -18,7 +18,7 @@ To change this template use File | Settings | File Templates.
         var g5_is_member = "";
         var g5_is_admin = "";
         var g5_is_mobile = "";
-        var g5_bo_table = "notice";
+        var g5_bo_table = "qa";
         var g5_sca = "";
         var g5_editor = "smarteditor2";
         var g5_cookie_domain = "";
@@ -33,8 +33,7 @@ To change this template use File | Settings | File Templates.
 <section id="sub_visual">
     <div class="backgroundimg">
         <div class="visual_area"
-             style="background:url('../front_util/images/sub_visual02.jpg') no-repeat top center;">
-        </div>
+             style="background:url('../front_util/images/sub_visual05.jpg') no-repeat top center;"></div>
     </div>
 </section>
 
@@ -51,22 +50,22 @@ To change this template use File | Settings | File Templates.
                             <li><a href="tour_course.html" target="_self">관광지</a></li>
                             <li><a href="booking.jsp?bo_table=booking" target="_self">맛집</a></li>
                             <li><a href="../theme/albbanotour/html/business/map_info_01.html" target="_self">투어예약</a></li>
-                            <li><a href="main_notice.html?bo_table=notice" target="_self">고객센터</a></li>
+                            <li><a href="main_notice.jsp?bo_table=notice" target="_self">고객센터</a></li>
 
                         </ul>
                     </li>
                 </ul>
                 <ul class="dep2">
                     <li>
-                        <span>공지사항</span>
+                        <span>질문답변</span>
                         <ul>
-                            <li><a href="main_notice.html?bo_table=notice" target="_self">공지사항</a></li>
+                            <li><a href="main_notice.jsp?bo_table=notice" target="_self">공지사항</a></li>
 
 
                             <li><a href="faq.jsp?fm_id=1" target="_self">자주 묻는 질문</a></li>
 
 
-                            <li><a href="qna.jsp?bo_table=qa" target="_self">질문답변</a></li>
+                            <li><a href="qna.html?bo_table=qa" target="_self">질문답변</a></li>
 
 
                             <li><a href="question.html" target="_self">1:1문의</a></li>
@@ -85,7 +84,7 @@ To change this template use File | Settings | File Templates.
             <li><a href="index.jsp"><span class="ic-home"><i></i></span></a></li>
             <li>고객센터</li>
             <li></li>
-            <li>공지사항</li>
+            <li>질문답변</li>
         </div>
         <div class="title">고객센터</div>
         <p class="normal_txt"></p>
@@ -95,7 +94,7 @@ To change this template use File | Settings | File Templates.
 
 
         <div class="bg_vline"></div>
-        <p class="eng"><em></em> 공지사항</p>
+        <p class="eng"><em></em> 질문답변</p>
         <p class="stitle"></p>
 
 
@@ -106,15 +105,12 @@ To change this template use File | Settings | File Templates.
             <!-- 게시판 페이지 정보 및 버튼 시작 { -->
             <div id="bo_btn_top">
                 <div id="bo_list_total">
-                    <span>Total 6건</span>
+                    <span>Total 725건</span>
                     1 페이지
                 </div>
 
                 <ul class="btn_bo_user">
-                    <li><a href="rss8497.php?bo_table=notice" class="btn_b01 btn"><i class="fa fa-rss"
-                                                                                     aria-hidden="true"></i> RSS</a>
-                    </li>
-                </ul>
+                    <li><a href="question.html" class="btn_b02 btn"><i class="fas fa-pencil-alt"></i> 글쓰기</a></li>        </ul>
             </div>
             <!-- } 게시판 페이지 정보 및 버튼 끝 -->
 
@@ -123,7 +119,7 @@ To change this template use File | Settings | File Templates.
 
             <form name="fboardlist" id="fboardlist" action="https://cmtour.co.kr/bbs/board_list_update.php"
                   onsubmit="return fboardlist_submit(this);" method="post">
-                <input type="hidden" name="bo_table" value="notice">
+                <input type="hidden" name="bo_table" value="qa">
                 <input type="hidden" name="sfl" value="">
                 <input type="hidden" name="stx" value="">
                 <input type="hidden" name="spt" value="">
@@ -135,193 +131,109 @@ To change this template use File | Settings | File Templates.
 
                 <div class="tbl_head01 tbl_wrap">
                     <table>
-                        <caption>공지사항 목록</caption>
+                        <caption>질문답변 목록</caption>
                         <thead>
                         <tr>
                             <th scope="col">번호</th>
                             <th scope="col">제목</th>
                             <th scope="col" class="lview">글쓴이</th>
                             <th scope="col" class="lview"><a
-                                    href="board0c74.html?bo_table=notice&amp;sop=and&amp;sst=wr_hit&amp;sod=desc&amp;sfl=&amp;stx=&amp;sca=&amp;page=1">조회
+                                    href="boarda809.html?bo_table=qa&amp;sop=and&amp;sst=wr_hit&amp;sod=desc&amp;sfl=&amp;stx=&amp;sca=&amp;page=1">조회
                                 <i class="fa fa-sort" aria-hidden="true"></i></a></th>
                             <th scope="col" class="lview"><a
-                                    href="boarda46b.html?bo_table=notice&amp;sop=and&amp;sst=wr_datetime&amp;sod=desc&amp;sfl=&amp;stx=&amp;sca=&amp;page=1">날짜
+                                    href="board62f0.html?bo_table=qa&amp;sop=and&amp;sst=wr_datetime&amp;sod=desc&amp;sfl=&amp;stx=&amp;sca=&amp;page=1">날짜
                                 <i class="fa fa-sort" aria-hidden="true"></i></a></th>
                         </tr>
                         </thead>
                         <tbody>
-                        <tr class="bo_notice">
+                        <tr class="">
                             <td class="td_num2">
-                                <strong class="notice_icon"><i class="fa fa-bullhorn" aria-hidden="true"></i><span
-                                        class="sound_only">공지</span></strong></td>
+                                712
+                            </td>
 
                             <td class="td_subject" style="padding-left:0px">
 
                                 <div class="bo_tit">
 
-                                    <a href="notice05.html?bo_table=notice&amp;wr_id=37">
-                                        [제휴할인] 인터폴커피 20%할인
+                                    <a href="boardf4f9.html?bo_table=qa&amp;wr_id=800">
+                                        <i class="fa fa-lock" aria-hidden="true"></i> 예약취소
                                     </a>
-                                    <i class="fa fa-heart" aria-hidden="true"></i></div>
+                                    <img src="../front_util/images/icon_new.gif" class="title_icon"
+                                         alt="새글"></div>
                                 <div class="mview">
                                     <div class="gall_info">
-                                        <span class="sv_member">관리자</span></div>
+                                        <span class="sv_member">livecafe</span></div>
                                     <div class="gall_info">
-                                        <span class="sound_only">조회 </span>Hit 1842 <span class="gall_date"><span
-                                            class="sound_only">작성일 </span>Date  2022-11-22</span>
+                                        <span class="sound_only">조회 </span>Hit 1 <span class="gall_date"><span
+                                            class="sound_only">작성일 </span>Date  2024-04-03</span>
                                     </div>
                                 </div>
 
                             </td>
-                            <td class="td_name sv_use lview"><span class="sv_member">관리자</span></td>
-                            <td class="td_num lview">1842</td>
-                            <td class="td_datetime lview">2022-11-22</td>
-
-                        </tr>
-                        <tr class="bo_notice">
-                            <td class="td_num2">
-                                <strong class="notice_icon"><i class="fa fa-bullhorn" aria-hidden="true"></i><span
-                                        class="sound_only">공지</span></strong></td>
-
-                            <td class="td_subject" style="padding-left:0px">
-
-                                <div class="bo_tit">
-
-                                    <a href="notice02.html?bo_table=notice&amp;wr_id=36">
-                                        포항-경주-김해공항 공항리무진 운행안내
-                                    </a>
-                                    <i class="fa fa-heart" aria-hidden="true"></i></div>
-                                <div class="mview">
-                                    <div class="gall_info">
-                                        <span class="sv_member">관리자</span></div>
-                                    <div class="gall_info">
-                                        <span class="sound_only">조회 </span>Hit 5177 <span class="gall_date"><span
-                                            class="sound_only">작성일 </span>Date  2022-07-09</span>
-                                    </div>
-                                </div>
-
-                            </td>
-                            <td class="td_name sv_use lview"><span class="sv_member">관리자</span></td>
-                            <td class="td_num lview">5177</td>
-                            <td class="td_datetime lview">2022-07-09</td>
-
-                        </tr>
-                        <tr class="bo_notice">
-                            <td class="td_num2">
-                                <strong class="notice_icon"><i class="fa fa-bullhorn" aria-hidden="true"></i><span
-                                        class="sound_only">공지</span></strong></td>
-
-                            <td class="td_subject" style="padding-left:0px">
-
-                                <div class="bo_tit">
-
-                                    <a href="notice04.html?bo_table=notice&amp;wr_id=29">
-                                        KTX + 알빠노관광 상품판매(코레일)
-                                    </a>
-                                    <i class="fa fa-heart" aria-hidden="true"></i></div>
-                                <div class="mview">
-                                    <div class="gall_info">
-                                        <span class="sv_member">관리자</span></div>
-                                    <div class="gall_info">
-                                        <span class="sound_only">조회 </span>Hit 6944 <span class="gall_date"><span
-                                            class="sound_only">작성일 </span>Date  2021-11-01</span>
-                                    </div>
-                                </div>
-
-                            </td>
-                            <td class="td_name sv_use lview"><span class="sv_member">관리자</span></td>
-                            <td class="td_num lview">6944</td>
-                            <td class="td_datetime lview">2021-11-01</td>
+                            <td class="td_name sv_use lview"><span class="sv_member">livecafe</span></td>
+                            <td class="td_num lview">1</td>
+                            <td class="td_datetime lview">2024-04-03</td>
 
                         </tr>
                         <tr class="">
                             <td class="td_num2">
-                                3
+                                711
                             </td>
 
                             <td class="td_subject" style="padding-left:0px">
 
                                 <div class="bo_tit">
 
-                                    <a href="notice06.html?bo_table=notice&amp;wr_id=41">
-                                        승차장소 제한 안내
+                                    <a href="board9f5f.html?bo_table=qa&amp;wr_id=798">
+                                        공휴일 시티투어버스 운행여부
                                     </a>
                                 </div>
                                 <div class="mview">
                                     <div class="gall_info">
-                                        <span class="sv_member">관리자</span></div>
+                                        <span class="sv_member">이선영1</span></div>
                                     <div class="gall_info">
-                                        <span class="sound_only">조회 </span>Hit 51 <span class="gall_date"><span
+                                        <span class="sound_only">조회 </span>Hit 2 <span class="gall_date"><span
                                             class="sound_only">작성일 </span>Date  2024-03-30</span>
                                     </div>
                                 </div>
 
                             </td>
-                            <td class="td_name sv_use lview"><span class="sv_member">관리자</span></td>
-                            <td class="td_num lview">51</td>
+                            <td class="td_name sv_use lview"><span class="sv_member">이선영1</span></td>
+                            <td class="td_num lview">2</td>
                             <td class="td_datetime lview">2024-03-30</td>
 
                         </tr>
                         <tr class="">
                             <td class="td_num2">
-                                2
+                                710
                             </td>
 
-                            <td class="td_subject" style="padding-left:0px">
+                            <td class="td_subject" style="padding-left:10px">
 
                                 <div class="bo_tit">
 
-                                    <a href="notice03.html?bo_table=notice&amp;wr_id=40">
-                                        2월26일이부로 일부 승차장소 변경 안내
+                                    <a href="board6dc5.html?bo_table=qa&amp;wr_id=799">
+                                        <img src="../front_util/images/icon_reply.gif"
+                                             class="icon_reply" alt="답변글"> Re: 공휴일 시티투어버스 운행여부
                                     </a>
-                                    <i class="fa fa-heart" aria-hidden="true"></i></div>
+                                </div>
                                 <div class="mview">
                                     <div class="gall_info">
                                         <span class="sv_member">관리자</span></div>
                                     <div class="gall_info">
-                                        <span class="sound_only">조회 </span>Hit 657 <span class="gall_date"><span
-                                            class="sound_only">작성일 </span>Date  2024-02-24</span>
+                                        <span class="sound_only">조회 </span>Hit 5 <span class="gall_date"><span
+                                            class="sound_only">작성일 </span>Date  2024-03-31</span>
                                     </div>
                                 </div>
 
                             </td>
                             <td class="td_name sv_use lview"><span class="sv_member">관리자</span></td>
-                            <td class="td_num lview">657</td>
-                            <td class="td_datetime lview">2024-02-24</td>
-
-                        </tr>
-                        <tr class="">
-                            <td class="td_num2">
-                                1
-                            </td>
-
-                            <td class="td_subject" style="padding-left:0px">
-
-                                <div class="bo_tit">
-
-                                    <a href="desc_notice.jsp?bo_table=notice&amp;wr_id=33">
-                                        2022년 투어요금 변경안내
-                                    </a>
-                                    <i class="fa fa-heart" aria-hidden="true"></i></div>
-                                <div class="mview">
-                                    <div class="gall_info">
-                                        <span class="sv_member">관리자</span></div>
-                                    <div class="gall_info">
-                                        <span class="sound_only">조회 </span>Hit 16503 <span class="gall_date"><span
-                                            class="sound_only">작성일 </span>Date  2022-01-04</span>
-                                    </div>
-                                </div>
-
-                            </td>
-                            <td class="td_name sv_use lview"><span class="sv_member">관리자</span></td>
-                            <td class="td_num lview">16503</td>
-                            <td class="td_datetime lview">2022-01-04</td>
-
+                            <td class="td_num lview">5</td>
+                            <td class="td_datetime lview">2024-03-31</td>
                         </tr>
                         </tbody>
                     </table>
                 </div>
-
 
             </form>
 
@@ -330,7 +242,7 @@ To change this template use File | Settings | File Templates.
                 <legend>게시물 검색</legend>
 
                 <form name="fsearch" method="get">
-                    <input type="hidden" name="bo_table" value="notice">
+                    <input type="hidden" name="bo_table" value="qa">
                     <input type="hidden" name="sca" value="">
                     <input type="hidden" name="sop" value="and">
                     <label for="sfl" class="sound_only">검색대상</label>
@@ -356,7 +268,20 @@ To change this template use File | Settings | File Templates.
 
 
         <!-- 페이지 -->
-
+        <nav class="pg_wrap"><span class="pg"><span class="sound_only">열린</span><strong
+                class="pg_current">1</strong><span class="sound_only">페이지</span>
+<a href="boarda5ae.html?bo_table=qa&amp;page=2" class="pg_page">2<span class="sound_only">페이지</span></a>
+<a href="board2377.html?bo_table=qa&amp;page=3" class="pg_page">3<span class="sound_only">페이지</span></a>
+<a href="board2204.html?bo_table=qa&amp;page=4" class="pg_page">4<span class="sound_only">페이지</span></a>
+<a href="board5cdc.html?bo_table=qa&amp;page=5" class="pg_page">5<span class="sound_only">페이지</span></a>
+<a href="boardab3d.html?bo_table=qa&amp;page=6" class="pg_page">6<span class="sound_only">페이지</span></a>
+<a href="boardb242.html?bo_table=qa&amp;page=7" class="pg_page">7<span class="sound_only">페이지</span></a>
+<a href="board5f65.html?bo_table=qa&amp;page=8" class="pg_page">8<span class="sound_only">페이지</span></a>
+<a href="board90a2.html?bo_table=qa&amp;page=9" class="pg_page">9<span class="sound_only">페이지</span></a>
+<a href="board6ec9.html?bo_table=qa&amp;page=10" class="pg_page">10<span class="sound_only">페이지</span></a>
+<a href="boardc830.html?bo_table=qa&amp;page=11" class="pg_page pg_next">다음</a>
+<a href="board3979.html?bo_table=qa&amp;page=48" class="pg_page pg_end">맨끝</a>
+</span></nav>
 
         <!-- } 게시판 목록 끝 -->
 
@@ -376,8 +301,6 @@ To change this template use File | Settings | File Templates.
 <%--스크롤_애니메이션_리셋--%>
 <script src="../front_util/js/wow.min.js"></script>
 <script> new WOW().init(); </script>
-
 </body>
 
 </html>
-

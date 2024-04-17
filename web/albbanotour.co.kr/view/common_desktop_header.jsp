@@ -89,7 +89,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="qna.html?bo_table=qa" target="_self">질문답변</a>
+                                        <a href="qna.jsp?bo_table=qa" target="_self">질문답변</a>
                                         <ul class="ul_3rd">
                                         </ul>
                                     </li>

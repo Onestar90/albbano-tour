@@ -294,7 +294,7 @@
                     <li>
                         <dl>
                             <dd>
-                                <a href="qna.html?bo_table=qa">
+                                <a href="qna.jsp?bo_table=qa">
                                     <i class="fas fa-comments" aria-hidden="true"></i>
                                     <p>질문과답변</p>
                                 </a>

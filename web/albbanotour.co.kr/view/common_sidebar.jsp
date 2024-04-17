@@ -34,7 +34,7 @@
         </dd>
 
         <dd>
-            <a href="qna.html?bo_table=qa" alt="온라인문의" title="온라인문의">
+            <a href="qna.jsp?bo_table=qa" alt="온라인문의" title="온라인문의">
                 <i class="fas fa-question-circle" aria-hidden="true"></i>
                 <p>온라인문의</p>
             </a>
