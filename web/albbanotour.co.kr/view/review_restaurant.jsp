@@ -107,14 +107,14 @@
             <a class="sel" rel="선택">맛집 리뷰</a>
             <ul style="display:none;">
                 <li><a href="#none">선택</a></li>
-                <li><a href="review_spot.html?fm_id=1" id="bo_cate_on"><span
+                <li><a href="review_spot.jsp?fm_id=1" id="bo_cate_on"><span
                         class="sound_only">열린 분류 </span>맛집 리뷰</a></li>
             </ul>
         </div>
         <nav id="bo_cate" class="snone">
             <h2>맛집 분류</h2>
             <ul id="bo_cate_ul">
-                <li><a href="review_spot.html?fm_id=1" id="bo_cate_on"><span
+                <li><a href="review_spot.jsp?fm_id=1" id="bo_cate_on"><span
                         class="sound_only">열린 분류 </span>맛집 리뷰</a></li>
             </ul>
         </nav>

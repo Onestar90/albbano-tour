@@ -26,7 +26,7 @@
                                         <ul class="ul_3rd"></ul>
                                     </li>
                                     <li>
-                                        <a href="review_spot.html" target="_self">관광지 리뷰</a>
+                                        <a href="review_spot.jsp" target="_self">관광지 리뷰</a>
                                         <ul class="ul_3rd"></ul>
                                     </li>
                                 </ul>

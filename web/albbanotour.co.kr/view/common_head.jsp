@@ -24,11 +24,11 @@
 <link rel="stylesheet" href="../front_util/css/default.css">
 <link rel="stylesheet" href="../front_util/css/notosanskr.css">
 <link rel="stylesheet" href="../front_util/css/scdream.css">
-<link rel="stylesheet" href="../front_util/css/style.css">
+<link rel="stylesheet" href="../front_util/css/style.css?ver=171222">
 <link rel="stylesheet" href="../front_util/css/style_b.css">
 <link rel="stylesheet" href="../front_util/css/style_c.css">
 <link rel="stylesheet" href="../front_util/css/style_d.css">
-<link rel="stylesheet" href="../front_util/css/style_e.css">
+<link rel="stylesheet" href="../front_util/css/style_e.css?ver=171222">
 <link rel="stylesheet" href="../front_util/css/style_h.css">
 <link rel="stylesheet" href="../front_util/css/style_i.css">
 <link rel="stylesheet" href="../front_util/css/style_j.css">
