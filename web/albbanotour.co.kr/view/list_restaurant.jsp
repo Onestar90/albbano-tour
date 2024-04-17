@@ -103,7 +103,7 @@
             <div class="swiper-container2">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide" style="width:285px !important;">
-                        <a href="gallery01.html?bo_table=gallery&amp;wr_id=9">
+                        <a href="desc_spot.jsp?bo_table=gallery&amp;wr_id=9">
                             <img src="../front_util/images/thumb-b592950d84858733b19ce958b7aa1e61_1571968104_0715_285x220.jpg"
                                  alt="&nbsp;">
                             <p class="txtBox">
