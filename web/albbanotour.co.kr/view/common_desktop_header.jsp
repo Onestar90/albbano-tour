@@ -94,7 +94,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="question.html" target="_self">1:1문의</a>
+                                        <a href="question.jsp" target="_self">1:1문의</a>
                                         <ul class="ul_3rd">
                                         </ul>
                                     </li>

@@ -68,7 +68,7 @@ To change this template use File | Settings | File Templates.
                             <li><a href="qna.html?bo_table=qa" target="_self">질문답변</a></li>
 
 
-                            <li><a href="question.html" target="_self">1:1문의</a></li>
+                            <li><a href="question.jsp" target="_self">1:1문의</a></li>
 
 
                         </ul>
@@ -110,7 +110,7 @@ To change this template use File | Settings | File Templates.
                 </div>
 
                 <ul class="btn_bo_user">
-                    <li><a href="question.html" class="btn_b02 btn"><i class="fas fa-pencil-alt"></i> 글쓰기</a></li>        </ul>
+                    <li><a href="question.jsp" class="btn_b02 btn"><i class="fas fa-pencil-alt"></i> 글쓰기</a></li>        </ul>
             </div>
             <!-- } 게시판 페이지 정보 및 버튼 끝 -->
 

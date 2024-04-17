@@ -62,7 +62,7 @@
                             <li><a href="main_notice.jsp?bo_table=notice" target="_self">공지사항</a></li>
                             <li><a href="faq.jsp?fm_id=1" target="_self">자주 묻는 질문</a></li>
                             <li><a href="qna.jsp?bo_table=qa" target="_self">질문답변</a></li>
-                            <li><a href="question.html" target="_self">1:1문의</a></li>
+                            <li><a href="question.jsp" target="_self">1:1문의</a></li>
                         </ul>
                     </li>
                 </ul>

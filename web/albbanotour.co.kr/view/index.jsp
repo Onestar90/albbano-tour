@@ -40,7 +40,7 @@
                         <h1 class="sviewa animated" data-swiper-animation="fadeInLeft" data-duration="3.2s"
                             data-delay="0.2">왜냐하면 <br>형태가 단순했거든 </h1>
                         <div class="animated" data-swiper-animation="fadeInRight" data-duration="3.2s" data-delay="0.2">
-                            <span><h2><a href="question.html">문의</a></h2></span></div>
+                            <span><h2><a href="question.jsp">문의</a></h2></span></div>
                     </div>
                     <div class="backgroundimg5"
                          style="background:url('../front_util/images/main_visual05.jpg') top center no-repeat;"></div>
@@ -54,7 +54,7 @@
                         <h1 class="sviewa animated" data-swiper-animation="fadeInLeft" data-duration="3.2s"
                             data-delay="0.2">누가봐도 <br>돌탑 같이 생겼습니다 </h1>
                         <div class="animated" data-swiper-animation="fadeInRight" data-duration="3.9s" data-delay="0.2">
-                            <span><h2><a href="question.html">문의</a></h2></span></div>
+                            <span><h2><a href="question.jsp">문의</a></h2></span></div>
                     </div>
                     <div class="backgroundimg2"
                          style="background:url('../front_util/images/main_visual02.jpg') top center no-repeat;"></div>
@@ -68,7 +68,7 @@
                         <h1 class="sviewa animated" data-swiper-animation="fadeInLeft" data-duration="3.2s"
                             data-delay="0.2"><strong>손가락에 <br>마비가 옵니다 </strong></h1>
                         <div class="animated" data-swiper-animation="fadeInRight" data-duration="3.2s" data-delay="0.2">
-                            <span><h2><a href="question.html">문의</a></h2></span></div>
+                            <span><h2><a href="question.jsp">문의</a></h2></span></div>
                     </div>
                     <div class="backgroundimg1"
                          style="background:url('../front_util/images/main_visual01.jpg') top center no-repeat;"></div>
@@ -83,7 +83,7 @@
                         <h1 class="sviewa animated" data-swiper-animation="fadeInLeft" data-duration="3.2s"
                             data-delay="0.2">편집은 역시 <br>윈도우 기본 그림판 </h1>
                         <div class="animated" data-swiper-animation="fadeInRight" data-duration="3.2s" data-delay="0.2">
-                            <span><h2><a href="question.html">문의</a></h2></span></div>
+                            <span><h2><a href="question.jsp">문의</a></h2></span></div>
                     </div>
                     <div class="backgroundimg4"
                          style="background:url('../front_util/images/main_visual04.jpg') top center no-repeat;"></div>
@@ -97,7 +97,7 @@
                         <h1 class="sviewa animated" data-swiper-animation="fadeInLeft" data-duration="3.2s"
                             data-delay="0.2">경주에 <br>생각보다 볼 데가 없어요 </h1>
                         <div class="animated" data-swiper-animation="fadeInRight" data-duration="3.2s" data-delay="0.2">
-                            <span><h2><a href="question.html">문의</a></h2></span></div>
+                            <span><h2><a href="question.jsp">문의</a></h2></span></div>
                     </div>
                     <div class="backgroundimg9"
                          style="background:url('../front_util/images/main_visual09.jpg') top center no-repeat;"></div>

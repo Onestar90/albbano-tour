@@ -69,7 +69,7 @@ To change this template use File | Settings | File Templates.
                             <li><a href="qna.jsp?bo_table=qa" target="_self">질문답변</a></li>
 
 
-                            <li><a href="question.html" target="_self">1:1문의</a></li>
+                            <li><a href="question.jsp" target="_self">1:1문의</a></li>
 
 
                         </ul>
