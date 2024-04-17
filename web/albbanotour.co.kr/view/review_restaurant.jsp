@@ -114,7 +114,7 @@
         <nav id="bo_cate" class="snone">
             <h2>맛집 분류</h2>
             <ul id="bo_cate_ul">
-                <li><a href="review_spot.jsp?fm_id=1" id="bo_cate_on"><span
+                <li><a href="review_restaurant.jsp?fm_id=1" id="bo_cate_on" style="background-color: white"><span
                         class="sound_only">열린 분류 </span>맛집 리뷰</a></li>
             </ul>
         </nav>

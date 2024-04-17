@@ -108,7 +108,7 @@
 
                     <div class="swiper-slide" style="width:285px !important;">
                         <a href="desc_spot.jsp?bo_table=gallery&amp;wr_id=9">
-                            <img src="../images/thumb-b592950d84858733b19ce958b7aa1e61_1571968104_0715_285x220.jpg"
+                            <img src="../front_util/images/thumb-b592950d84858733b19ce958b7aa1e61_1571968104_0715_285x220.jpg"
                                  alt="&nbsp;">
                             <p class="txtBox">
                                 <span class="tit">감은사지삼층석탑</span>
@@ -121,7 +121,7 @@
 
                     <div class="swiper-slide" style="width:285px !important;">
                         <a href="desc_spot.jsp?bo_table=gallery&amp;wr_id=9">
-                            <img src="../images/thumb-b592950d84858733b19ce958b7aa1e61_1571968085_2893_285x220.jpg"
+                            <img src="../front_util/images/thumb-b592950d84858733b19ce958b7aa1e61_1571968085_2893_285x220.jpg"
                                  alt="&nbsp;">
                             <p class="txtBox">
                                 <span class="tit">월정교</span>
@@ -133,7 +133,7 @@
 
                     <div class="swiper-slide" style="width:285px !important;">
                         <a href="desc_spot.jsp?bo_table=gallery&amp;wr_id=9">
-                            <img src="../images/thumb-b592950d84858733b19ce958b7aa1e61_1571968027_3237_285x220.jpg"
+                            <img src="../front_util/images/thumb-b592950d84858733b19ce958b7aa1e61_1571968027_3237_285x220.jpg"
                                  alt="&nbsp;">
                             <p class="txtBox">
                                 <span class="tit">안압지</span>
@@ -146,7 +146,7 @@
 
                     <div class="swiper-slide" style="width:285px !important;">
                         <a href="desc_spot.jsp?bo_table=gallery&amp;wr_id=9">
-                            <img src="../images/thumb-b592950d84858733b19ce958b7aa1e61_1571967995_9657_285x220.jpg"
+                            <img src="../front_util/images/thumb-b592950d84858733b19ce958b7aa1e61_1571967995_9657_285x220.jpg"
                                  alt="&nbsp;">
                             <p class="txtBox">
                                 <span class="tit">문무대왕릉</span>
@@ -159,7 +159,7 @@
 
                     <div class="swiper-slide" style="width:285px !important;">
                         <a href="desc_spot.jsp?bo_table=gallery&amp;wr_id=9">
-                            <img src="../images/thumb-b592950d84858733b19ce958b7aa1e61_1571967966_297_285x220.jpg"
+                            <img src="../front_util/images/thumb-b592950d84858733b19ce958b7aa1e61_1571967966_297_285x220.jpg"
                                  alt="&nbsp;">
                             <p class="txtBox">
                                 <span class="tit">불국사</span>
@@ -171,7 +171,7 @@
                 </div>
             </div>
         </section>
-        <script src="../js/g_slide.js"></script>
+        <script src="../front_util/js/g_slide.js"></script>
     </div>
 </section>
 
