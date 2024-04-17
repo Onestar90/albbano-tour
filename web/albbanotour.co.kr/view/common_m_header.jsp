@@ -79,8 +79,8 @@
                     <div>관광지<i class="fas fa-angle-down" aria-hidden="true"
                                style="float:right; margin-right:10px; margin-top:12px;"></i></div>
                     <ul class="subnav">
-                        <li><a href="list_sight.html" target="_self">- 관광지 리스트</a></li>
-                        <li><a href="review_sight.html" target="_self">- 관광지 리뷰</a></li>
+                        <li><a href="list_spot.jsp" target="_self">- 관광지 리스트</a></li>
+                        <li><a href="review_spot.html" target="_self">- 관광지 리뷰</a></li>
                     </ul>
                 </li>
 

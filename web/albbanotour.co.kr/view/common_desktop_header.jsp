@@ -19,14 +19,14 @@
                     <div class="lnb_area" style="position:relative;">
                         <ul class="ul_1st">
                             <li>
-                                <a href="list_sight.html" target="_self">관광지</a>
+                                <a href="list_spot.jsp" target="_self">관광지</a>
                                 <ul class="ul_2nd">
                                     <li>
-                                        <a href="list_sight.html" target="_self">관광지 리스트</a>
+                                        <a href="list_spot.jsp" target="_self">관광지 리스트</a>
                                         <ul class="ul_3rd"></ul>
                                     </li>
                                     <li>
-                                        <a href="review_sight.html" target="_self">관광지 리뷰</a>
+                                        <a href="review_spot.html" target="_self">관광지 리뷰</a>
                                         <ul class="ul_3rd"></ul>
                                     </li>
                                 </ul>
