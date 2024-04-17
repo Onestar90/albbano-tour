@@ -60,7 +60,7 @@
                             <li><a href="login.jsp" target="_self">로그인</a></li>
 
 
-                            <li><a href="register.html" target="_self">회원가입</a></li>
+                            <li><a href="register.jsp" target="_self">회원가입</a></li>
 
 
                             <li><a href="policy.html?co_id=privacy" target="_self">개인정보처리방침</a></li>

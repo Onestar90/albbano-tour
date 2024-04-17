@@ -110,7 +110,7 @@
 
             <div id="gnb">
                 <li><a href="login.jsp"><i class="fa fa-power-off" aria-hidden="true"></i> 로그인</a></li>
-                <li><a href="register.html"><i class="fa fa-user" aria-hidden="true"></i> 회원가입</a></li>
+                <li><a href="register.jsp"><i class="fa fa-user" aria-hidden="true"></i> 회원가입</a></li>
             </div>
 
         </div>

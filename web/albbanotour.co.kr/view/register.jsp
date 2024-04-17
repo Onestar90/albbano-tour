@@ -1,27 +1,15 @@
-<!doctype html>
+<%--
+Created by IntelliJ IDEA.
+User: potatomoong
+Date: 2024-04-17
+Time: 오후 02:27
+To change this template use File | Settings | File Templates.
+--%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
 <html lang="ko">
-
-<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport"
-          content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
-    <meta http-equiv="imagetoolbar" content="no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/png" href="/favicon.png"/>
-
-    <!--사이드바 폰트 시작-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <!--사이드바 폰트 종료-->
-
     <title>회원가입약관 | 알빠노관광</title>
-    <link rel="stylesheet" href="../css/defaulta68a.css?ver=171222">
-    <link rel="stylesheet" href="../css/stylea685a.css?ver=171222">
-    <link rel="stylesheet" href="../skin/social/stylea68a.css?ver=171222">
-
-
-
 
     <script>
         // 자바스크립트에서 사용하는 전역변수 선언
@@ -35,272 +23,18 @@
         var g5_editor = "";
         var g5_cookie_domain = "";
     </script>
-    <script src="../js/jquery-1.8.3.min.js"></script>
-    <script src="../js/jquery.menua68a.js?ver=171222"></script>
-    <script src="../js/commona68a.js?ver=171222"></script>
-    <script src="../js/wresta68a.js?ver=171222"></script>
-    <script src="../js/placeholders.min.js"></script>
 
-
-    <script src="../js/jquery-3.2.1.min.js"></script>
-    <script src="../js/jquery.fancybox.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../css/jquery.fancybox.css">
-
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <meta name="format-detection" content="telephone=no"/>
-
-    <link href="../css/common.dt_ori.daontheme_ver2_.03.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="../css/all.css"
-          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <script language="javascript" type="text/javascript"
-            src="../js/gnb-jquery.easing.1.3.js"></script>
-    <link rel="stylesheet" href="../css/swiper.min.css">
-    <script src="../js/swiper.min.js"></script>
-    <script src="../js/swiper-animation.min.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="../css/slick.css"/>
-    <script type="text/javascript" src="../js/slick.min.js"></script>
-    <link rel="stylesheet" href="../css/xeicon.min.css">
-
-    <link rel="stylesheet" href="../css/animate.css" type="text/css">
-
+    <%@ include file="common_head.jsp" %>
 </head>
+
 <body>
-<!--모바일 시작 비로그인-->
-<div id="mobile_header">
-    <div class="inner">
-        <h1><a href="index.jsp"><img src="../images/top_logo_m.png" alt="로고" title="로고"></a></h1>
-        <ul class="m_gnb">
-            <li class="category"><a href="#none" class="qbt" title="전체메뉴열기">
-                <i class="fa fa-outdent" aria-hidden="true"></i></a>
-            </li>
-            <li class="home">
-                <a href="tel:1588-1234" title="고객센터전화"><i class="fa fa-phone"></i></a>
-            </li>
-        </ul>
-    </div>
-</div>
+<%@ include file="common_m_header.jsp" %>
+<%@ include file="common_desktop_header.jsp" %>
 
-<div id="sideMenu">
-    <div class="side_title qbt"> 알빠노관광
-        <i class="fa fa-window-close" aria-hidden="true" style="float:right; margin-right:10px; margin-top:20px;"></i>
-    </div>
-
-    <div id="gnba">
-        <div style="margin-top:10px; margin-bottom:10px;">
-            <a href="login.jsp">로그인</a>
-            <a href="register.html">회원가입</a>
-        </div>
-    </div>
-
-    <!-- 모바일 로그인-->
-    <!--    <div id="hd_login_msg">아이디님 로그인 중 <a href="../index.jsp">로그아웃</a></div>-->
-
-    <!--    <div id="mobile_header">-->
-    <!--        <div class="inner">-->
-    <!--            <h1><a href="../index.jsp"><img src="../theme/cmtour/html/image/top_logo_m.png" alt="로고" title="로고"></a></h1>-->
-    <!--            <ul class="m_gnb">-->
-
-    <!--                <li class="category">-->
-    <!--                    <a href="#none" class="qbt" title="전체메뉴열기">-->
-    <!--                        <i class="fa fa-outdent" aria-hidden="true"></i>-->
-    <!--                    </a>-->
-    <!--                </li>-->
-
-    <!--                <li class="home">-->
-    <!--                    <a href="tel:1588-1234" title="고객센터전화">-->
-    <!--                        <i class="fa fa-phone"></i>-->
-    <!--                    </a>-->
-    <!--                </li>-->
-
-    <!--            </ul>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
-    <!--    <div id="sideMenu">-->
-
-    <!--        <div class="side_title qbt">알빠노관광-->
-    <!--            <i class="fa fa-window-close" aria-hidden="true" style="float:right; margin-right:10px; margin-top:20px;"></i>-->
-    <!--        </div>-->
-
-    <!--        <div id="gnba">-->
-    <!--            <br>-->
-    <!--            <span style="color:#fff;">여행자님!</span>-->
-    <!--            <div style="margin-top:10px; margin-bottom:10px;">-->
-    <!--                <a href="../index.jsp">로그아웃</a>-->
-    <!--                <a href="edit_profile.jsp">정보수정</a>-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--모바일로그인 종료-->
-    <div class="navi_bg">
-        <div class="nav">
-            <ul class="subnav1">
-                <li class="navi_set">
-                    <div>관광지<i class="fas fa-angle-down" aria-hidden="true" style="float:right; margin-right:10px; margin-top:12px;"></i></div>
-                    <ul class="subnav">
-                        <li><a href="list_spot.jsp" target="_self">- 관광지 리스트</a></li>
-                        <li><a href="review_spot.html" target="_self">- 관광지 리뷰</a></li>
-                    </ul>
-                </li>
-
-                <li class="navi_set">
-                    <div>맛집<i class="fas fa-angle-down" aria-hidden="true" style="float:right; margin-right:10px; margin-top:12px;"></i></div>
-                    <ul class="subnav">
-                        <li><a href="list_restaurant.jsp" target="_self">- 맛집 리스트</a></li>
-                        <li><a href="review_restaurant.html" target="_self">- 맛집 리뷰</a></li>
-                    </ul>
-                </li>
-
-                <li class="navi_set">
-                    <div>투어예약<i class="fas fa-angle-down" aria-hidden="true"
-                                style="float:right; margin-right:10px; margin-top:12px;"></i></div>
-                    <ul class="subnav">
-                        <li><a href="tour_course.html" target="_self">- 투어 코스</a></li>
-                        <li><a href="booking.jsp" target="_self">- 투어 예약</a></li>
-                        <li><a href="reservation.html" target="_self">- 예약 확인</a></li>
-                    </ul>
-                </li>
-
-                <li class="navi_set">
-                    <div>고객센터<i class="fas fa-angle-down" aria-hidden="true"
-                                style="float:right; margin-right:10px; margin-top:12px;"></i></div>
-                    <ul class="subnav">
-                        <li><a href="main_notice.jsp?bo_table=notice" target="_self">- 공지사항</a></li>
-                        <li><a href="faq.jsp?fm_id=1" target="_self">- 자주 묻는 질문</a></li>
-                        <li><a href="qna.jsp?bo_table=qa" target="_self">- 질문답변</a></li>
-                        <li><a href="question.jsp" target="_self">- 1:1문의</a></li>
-
-                    </ul>
-                </li>
-
-            </ul>
-        </div>
-    </div>
-
-    <div style="margin: 10px auto; text-align: center">
-        <p style="background: #d05222;border-radius: 20px;margin: 10px 20px;padding: 10px;color: #fff;font-size: 1rem;">
-            고객문의 <br>
-            02-3483-4632</p>
-    </div>
-
-</div>
-<div id="back_cover"></div>
-<!-- 모바일 종료-->
-
-<section id="header_wrap">
-    <div id="header">
-        <div class="wrap_box">
-            <div id="header_logo">
-                <h1><a href="index.jsp"><img src="../images/top_logo.png" alt="로고" title="로고"></a>
-                </h1>
-            </div>
-            <div id="lnb">
-                <div id="lnb_wrap">
-                    <div class="lnb_area" style="position:relative;">
-                        <ul class="ul_1st">
-                            <li>
-                                <a href="list_spot.jsp" target="_self">관광지</a>
-                                <ul class="ul_2nd">
-                                    <li>
-                                        <a href="list_spot.jsp" target="_self">관광지 리스트</a>
-                                        <ul class="ul_3rd"></ul>
-                                    </li>
-                                    <li>
-                                        <a href="review_spot.html" target="_self">관광지 리뷰</a>
-                                        <ul class="ul_3rd"></ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li></li>
-
-                            <li>
-                                <a href="list_restaurant.jsp" target="_self">맛집</a>
-                                <ul class="ul_2nd">
-                                    <li>
-                                        <a href="list_restaurant.jsp" target="_self">맛집 리스트</a>
-                                        <ul class="ul_3rd">
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="review_restaurant.html" target="_self">맛집 리뷰</a>
-                                        <ul class="ul_3rd">
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li></li>
-
-                            <li>
-                                <a href="tour_course.html" target="_self">투어예약</a>
-                                <ul class="ul_2nd">
-                                    <li>
-                                        <a href="tour_course.html" target="_self">투어 코스</a>
-                                        <ul class="ul_3rd">
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="booking.jsp" target="_self">투어 예약</a>
-                                        <ul class="ul_3rd">
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="reservation.html" target="_self">예약 확인</a>
-                                        <ul class="ul_3rd">
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li></li>
-
-                            <li>
-                                <a href="main_notice.jsp?bo_table=notice" target="_self">고객센터</a>
-                                <ul class="ul_2nd">
-                                    <li>
-                                        <a href="main_notice.jsp?bo_table=notice" target="_self">공지사항</a>
-                                        <ul class="ul_3rd">
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="faq.jsp?fm_id=1" target="_self">자주 묻는 질문</a>
-                                        <ul class="ul_3rd">
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="qna.jsp?bo_table=qa" target="_self">질문답변</a>
-                                        <ul class="ul_3rd">
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="question.jsp" target="_self">1:1문의</a>
-                                        <ul class="ul_3rd">
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li></li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            <div id="gnb">
-                <li><a href="login.jsp"><i class="fa fa-power-off" aria-hidden="true"></i> 로그인</a></li>
-                <li><a href="register.html"><i class="fa fa-user" aria-hidden="true"></i> 회원가입</a></li>
-            </div>
-
-        </div>
-    </div>
-</section>
 <section id="sub_visual">
     <div class="backgroundimg">
         <div class="visual_area"
-             style="background:url('../images/sub_visual06.jpg') no-repeat top center;"></div>
+             style="background:url('../front_util/images/sub_visual06.jpg') no-repeat top center;"></div>
     </div>
 </section>
 
@@ -316,7 +50,8 @@
                         <ul>
                             <li><a href="tour_course.html" target="_self">관광지</a></li>
                             <li><a href="booking.jsp?bo_table=booking" target="_self">맛집</a></li>
-                            <li><a href="../theme/albbanotour/html/business/map_info_01.html" target="_self">투어예약</a></li>
+                            <li><a href="../theme/albbanotour/html/business/map_info_01.html" target="_self">투어예약</a>
+                            </li>
                             <li><a href="main_notice.jsp?bo_table=notice" target="_self">고객센터</a></li>
 
                         </ul>
@@ -588,142 +323,19 @@
     </div>
 </section>
 
+<%--footer_jsp_적용_시작--%>
 <footer>
-    <section id="footer" class="clearfix">
-        <div class="copy_bar">
-            <div>
-                <div class="copy_menu">
-                    <p><a href="company_introduce.jsp">회사소개</a> &nbsp;&nbsp;&nbsp; <a
-                            href="policy.jsp?co_id=privacy">개인정보처리방침</a> &nbsp;&nbsp;&nbsp; <a
-                            href="service_terms.html?co_id=provision">이용약관</a> &nbsp;&nbsp;&nbsp; <a
-                            href="main_notice.jsp?bo_table=notice" class="depth1" alt="공지사항" title="공지사항">공지사항</a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="copy_area">
-            <div class="copyright">
-                <p>
-                    <span>상호명 : 알빠노관광</span>
-                    <span>대표 : 곽우신</span>
-                    <span>주소 : 서울특별시 강남구 테헤란로 132(역삼동) 한독약품빌딩 8층</span>
-                    <span>대표전화 : 02-3483-4632 </span>
-                    <span>개인정보책임관리자 : 알빠노!</span>
-                    <span>© Albbano Tour All Rights Reserved.</span>
-                </p>
-            </div>
-            <div class="copy_logo">
-                <img src="../images/top_logo.png" alt="로고" title="로고">
-                <p class="copy_cs">고객문의 <a href="tel:02-3483-4632">02-3483-4632</a></p>
-            </div>
-        </div>
-    </section>
+    <%@ include file="common_footer.jsp" %>
 </footer>
+<%--footer_jsp_적용_끝--%>
 
-<!-- 모바일_하단고정 -->
-<div class="request">
-    <div class="floating">
-        <div class="inner">
-            <div class="btn_col">
-                <span><a href="question.jsp" class="btn_type1">온라인문의</a></span>
-                <span><a href="tel:02-3483-4632" class="btn_type2">상담원연결</a></span>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- 모바일_하단고정 //-->
+<%@ include file="common_m_footer.jsp" %>
+<%@ include file="common_sidebar.jsp" %>
+<%@ include file="common_lower_container.jsp" %>
 
-<!-- 사이드바_시작 -->
-<div class="q-menu">
-    <dl>
-        <dt>
-            <i class="fas fa-bars"></i>
-            <p>QUICK MENU</p>
-        </dt>
-
-        <dd>
-            <a href="list_spot.jsp" alt="관광지리스트" title="관광지리스트">
-                <i class="fas fa-camera" aria-hidden="true"></i>
-                <p>관광지 리스트</p></a>
-        </dd>
-
-        <dd>
-            <a href="list_restaurant.jsp" alt="맛집리스트" title="맛집리스트">
-                <i class="fas fa-utensils" aria-hidden="true"></i>
-                <p>맛집 리스트</p></a>
-        </dd>
-
-        <dd>
-            <a href="booking.jsp?bo_table=booking" alt="예약하기" title="예약하기">
-                <i class="fas fa-calendar-check" aria-hidden="true"></i>
-                <p>예약바로가기</p>
-            </a>
-        </dd>
-
-        <dd>
-            <a href="qna.jsp?bo_table=qa" alt="온라인문의" title="온라인문의">
-                <i class="fas fa-question-circle" aria-hidden="true"></i>
-                <p>온라인문의</p>
-            </a>
-        </dd>
-
-        <dd>
-            <a href="main_notice.jsp?bo_table=notice" alt="공지사항" title="공지사항">
-                <i class="fas fa-volume-down" aria-hidden="true"></i>
-                <p>공지사항</p>
-            </a>
-        </dd>
-
-        <dd>
-            <a href="#none" alt="상단으로" title="상단으로" id="top_btn2">
-                <i class="fa fa-arrow-up" aria-hidden="true"></i>
-                <p>상단으로</p>
-            </a>
-        </dd>
-    </dl>
-</div>
-<!-- 사이드바_끝 -->
-
-<script src="../js/common.js"></script>
-
-
-<script>
-    $(function () {
-        $("#top_btn2").on("click", function () {
-            $("html, body").animate({scrollTop: 0}, '500');
-            return false;
-        });
-    });
-</script>
-
-
-<button type="button" id="top_btn"><i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
-</button>
-<script>
-
-    $(function () {
-        $("#top_btn").on("click", function () {
-            $("html, body").animate({scrollTop: 0}, '500');
-            return false;
-        });
-    });
-</script>
-
-
-<!-- } 하단 끝 -->
-
-<script>
-    $(function () {
-        // 폰트 리사이즈 쿠키있으면 실행
-        font_resize("container", get_cookie("ck_font_resize_rmv_class"), get_cookie("ck_font_resize_add_class"));
-    });
-</script>
-
-
-
-<script src="../js/wow.min.js"></script>
+<%--스크롤_애니메이션_리셋--%>
+<script src="../front_util/js/wow.min.js"></script>
 <script> new WOW().init(); </script>
-
 </body>
 
 </html>

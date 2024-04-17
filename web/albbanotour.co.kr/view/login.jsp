@@ -37,7 +37,7 @@ To change this template use File | Settings | File Templates.
 
         <div class="mb_log_cate">
             <h2>로그인 </h2>
-            <a href="register.html" class="join">회원가입 </a>
+            <a href="register.jsp" class="join">회원가입 </a>
         </div>
         <form name="flogin" action="https://cmtour.co.kr/bbs/login_check.php" onsubmit="return flogin_submit(this);"
               method="post">

@@ -168,7 +168,7 @@
 
                 </div>
                 <div class="btn_confirm">
-                    <a href="register.html" class="btn_close">취소</a>
+                    <a href="register.jsp" class="btn_close">취소</a>
                     <button type="submit" id="btn_submit" class="btn_submit" accesskey="s">회원가입</button>
                 </div>
             </form>
