@@ -14,8 +14,8 @@ To change this template use File | Settings | File Templates.
 
     <script>
         // 자바스크립트에서 사용하는 전역변수 선언
-        var g5_url       = "index.jsp";
-        var g5_bbs_url   = "index.jsp";
+        var g5_url       = "index_user.jsp";
+        var g5_bbs_url   = "index_user.jsp";
         var g5_is_member = "1";
         var g5_is_admin  = "";
         var g5_is_mobile = "";
@@ -42,7 +42,7 @@ To change this template use File | Settings | File Templates.
     <div id="sub_menu">
         <div class="sub_location">
             <div>
-                <div class="cen"><a href="index.jsp"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+                <div class="cen"><a href="index_user.jsp"><i class="fa fa-home" aria-hidden="true"></i></a></div>
                 <ul class="">
                     <li>
                         <span>맴버쉽</span>
@@ -81,7 +81,7 @@ To change this template use File | Settings | File Templates.
 
     <div id="sub_tit">
         <div class="path">
-            <li><a href="index.jsp"><span class="ic-home"><i></i></span></a></li>
+            <li><a href="index_user.jsp"><span class="ic-home"><i></i></span></a></li>
             <li>맴버쉽</li>					<li></li>					<li>회원 정보 수정</li>
         </div>
         <div class="title">맴버쉽</div>

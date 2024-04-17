@@ -32,7 +32,7 @@ To change this template use File | Settings | File Templates.
     <div class="mbskin_box">
         <h1>로그인</h1>
 
-        <div><a href="index.jsp"><h2 style="font-size: 2rem; margin: 20px auto"><img
+        <div><a href="index_user.jsp"><h2 style="font-size: 2rem; margin: 20px auto"><img
                 src="../front_util/images/top_logo.png" alt="처음으로 "></h2></a></div>
 
         <div class="mb_log_cate">

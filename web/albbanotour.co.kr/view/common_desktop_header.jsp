@@ -10,7 +10,7 @@
     <div id="header">
         <div class="wrap_box">
             <div id="header_logo">
-                <h1><a href="index.jsp">
+                <h1><a href="index_user.jsp">
                     <img src="../front_util/images/top_logo.png" alt="로고" title="로고"></a>
                 </h1>
             </div>

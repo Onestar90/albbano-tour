@@ -43,7 +43,7 @@ To change this template use File | Settings | File Templates.
     <div id="sub_menu">
         <div class="sub_location">
             <div>
-                <div class="cen"><a href="index.jsp"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+                <div class="cen"><a href="index_user.jsp"><i class="fa fa-home" aria-hidden="true"></i></a></div>
                 <ul class="">
                     <li>
                         <span>맴버쉽</span>
@@ -83,7 +83,7 @@ To change this template use File | Settings | File Templates.
 
     <div id="sub_tit">
         <div class="path">
-            <li><a href="index.jsp"><span class="ic-home"><i></i></span></a></li>
+            <li><a href="index_user.jsp"><span class="ic-home"><i></i></span></a></li>
             <li>맴버쉽</li>
             <li></li>
             <li>회원가입약관</li>
@@ -282,7 +282,7 @@ To change this template use File | Settings | File Templates.
                 </div>
 
                 <div class="btn_confirm">
-                    <a href="index.jsp" class="btn_close">취소</a>
+                    <a href="index_user.jsp" class="btn_close">취소</a>
                     <button type="submit" class="btn_submit">회원가입</button>
                 </div>
 

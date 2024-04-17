@@ -42,7 +42,7 @@
     <div id="sub_menu">
         <div class="sub_location">
             <div>
-                <div class="cen"><a href="index.jsp"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+                <div class="cen"><a href="index_user.jsp"><i class="fa fa-home" aria-hidden="true"></i></a></div>
                 <ul class="">
                     <li>
                         <span></span>
@@ -70,7 +70,7 @@
 
     <div id="sub_tit">
         <div class="path">
-            <li><a href="index.jsp"><span class="ic-home"><i></i></span></a></li>
+            <li><a href="index_user.jsp"><span class="ic-home"><i></i></span></a></li>
             <li></li>
             <li></li>
             <li>게시글 관리</li>

@@ -42,7 +42,7 @@ To change this template use File | Settings | File Templates.
         <div class="sub_location">
             <div>
                 <div class="cen">
-                    <a href="index.jsp">
+                    <a href="index_user.jsp">
                         <i class="fa fa-home" aria-hidden="true"></i>
                     </a>
                 </div>
@@ -78,7 +78,7 @@ To change this template use File | Settings | File Templates.
     <div id="sub_tit">
         <div class="path">
             <li>
-                <a href="index.jsp"><span class="ic-home"><i></i></span></a>
+                <a href="index_user.jsp"><span class="ic-home"><i></i></span></a>
             </li>
             <li>맴버쉽</li>
             <li></li>
@@ -206,7 +206,7 @@ To change this template use File | Settings | File Templates.
                 ① 회사가 회원에게 서비스를 제공할 수 있는 서비스 투자기반의 일부는 광고게재를 통한 수익으로부터 나옵니다. 회원은 서비스 이용시 노출되는 광고게재에 대해 동의합니다.<br/>
                 ② 회사는 서비스상에 게재되어 있거나 본 서비스를 통한 광고주의 판촉활동에 회원이 참여하거나 교신 또는 거래를 함으로써 발생하는 손실과 손해에 대해 책임을 지지 않습니다.<br/>
                 제17조(계약 변경 및 해지)<br/>
-                회원이 이용계약을 해지하고자 하는 때에는 회원 본인이 <a href="index.jsp" rel="nofollow">www.albbano.co.kr</a> 웹 내의
+                회원이 이용계약을 해지하고자 하는 때에는 회원 본인이 <a href="index_user.jsp" rel="nofollow">www.albbano.co.kr</a> 웹 내의
                 "회원탈퇴"메뉴를 이용해 가입해지를 해야 합니다.<br/>
                 <h2>제18조(서비스 이용제한)</h2>
 
