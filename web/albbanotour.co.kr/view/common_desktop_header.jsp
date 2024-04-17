@@ -43,7 +43,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="review_restaurant.html" target="_self">맛집 리뷰</a>
+                                        <a href="review_restaurant.jsp" target="_self">맛집 리뷰</a>
                                         <ul class="ul_3rd">
                                         </ul>
                                     </li>

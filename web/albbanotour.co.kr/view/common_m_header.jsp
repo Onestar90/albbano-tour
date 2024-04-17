@@ -89,7 +89,7 @@
                               style="float:right; margin-right:10px; margin-top:12px;"></i></div>
                     <ul class="subnav">
                         <li><a href="list_restaurant.jsp" target="_self">- 맛집 리스트</a></li>
-                        <li><a href="review_restaurant.html" target="_self">- 맛집 리뷰</a></li>
+                        <li><a href="review_restaurant.jsp" target="_self">- 맛집 리뷰</a></li>
                     </ul>
                 </li>
 
