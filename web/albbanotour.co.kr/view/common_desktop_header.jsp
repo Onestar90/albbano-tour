@@ -76,10 +76,10 @@
                             <li></li>
 
                             <li>
-                                <a href="main_notice.html?bo_table=notice" target="_self">고객센터</a>
+                                <a href="main_notice.jsp?bo_table=notice" target="_self">고객센터</a>
                                 <ul class="ul_2nd">
                                     <li>
-                                        <a href="main_notice.html?bo_table=notice" target="_self">공지사항</a>
+                                        <a href="main_notice.jsp?bo_table=notice" target="_self">공지사항</a>
                                         <ul class="ul_3rd">
                                         </ul>
                                     </li>

@@ -41,7 +41,7 @@
         </dd>
 
         <dd>
-            <a href="main_notice.html?bo_table=notice" alt="공지사항" title="공지사항">
+            <a href="main_notice.jsp?bo_table=notice" alt="공지사항" title="공지사항">
                 <i class="fas fa-volume-down" aria-hidden="true"></i>
                 <p>공지사항</p>
             </a>

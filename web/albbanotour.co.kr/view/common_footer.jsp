@@ -14,7 +14,7 @@
                     <p><a href="company_introduce.jsp">회사소개</a> &nbsp;&nbsp;&nbsp; <a
                             href="policy.html?co_id=privacy">개인정보처리방침</a> &nbsp;&nbsp;&nbsp; <a
                             href="service_terms.html?co_id=provision">이용약관</a> &nbsp;&nbsp;&nbsp; <a
-                            href="main_notice.html?bo_table=notice" class="depth1" alt="공지사항" title="공지사항">공지사항</a>
+                            href="main_notice.jsp?bo_table=notice" class="depth1" alt="공지사항" title="공지사항">공지사항</a>
                     </p>
                 </div>
             </div>

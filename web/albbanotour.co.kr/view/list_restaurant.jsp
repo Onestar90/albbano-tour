@@ -50,7 +50,7 @@
                             <li><a href="list_restaurant.jsp" target="_self">맛집</a></li>
                             <li><a href="booking.jsp" target="_self">투어예약</a>
                             </li>
-                            <li><a href="main_notice.html?bo_table=notice" target="_self">고객센터</a></li>
+                            <li><a href="main_notice.jsp?bo_table=notice" target="_self">고객센터</a></li>
 
                         </ul>
                     </li>
@@ -59,7 +59,7 @@
                     <li>
                         <span>공지사항</span>
                         <ul>
-                            <li><a href="main_notice.html?bo_table=notice" target="_self">공지사항</a></li>
+                            <li><a href="main_notice.jsp?bo_table=notice" target="_self">공지사항</a></li>
                             <li><a href="faq.jsp?fm_id=1" target="_self">자주 묻는 질문</a></li>
                             <li><a href="qna.html?bo_table=qa" target="_self">질문답변</a></li>
                             <li><a href="question.html" target="_self">1:1문의</a></li>

@@ -48,7 +48,7 @@
                             <li><a href="tour_course.html" target="_self">관광지</a></li>
                             <li><a href="booking.html?bo_table=booking" target="_self">맛집</a></li>
                             <li><a href="../theme/albbanotour/html/business/map_info_01.html" target="_self">투어예약</a></li>
-                            <li><a href="main_notice.html?bo_table=notice" target="_self">고객센터</a></li>
+                            <li><a href="main_notice.jsp?bo_table=notice" target="_self">고객센터</a></li>
 
                         </ul>
                     </li>
@@ -57,7 +57,7 @@
                     <li>
                         <span>자주하시는 질문</span>
                         <ul>
-                            <li><a href="main_notice.html?bo_table=notice" target="_self">공지사항</a></li>
+                            <li><a href="main_notice.jsp?bo_table=notice" target="_self">공지사항</a></li>
 
                             <li><a href="faq.html?fm_id=1" target="_self">자주 묻는 질문</a></li>
 

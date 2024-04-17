@@ -250,7 +250,7 @@
             <div class="notice_area">
                 <ul class="tab">
                     <li>공지사항</li>
-                    <a href="main_notice.html?bo_table=notice" class="more"><img
+                    <a href="main_notice.jsp?bo_table=notice" class="more"><img
                             src="../front_util/images/btn_more.png"></a>
                 </ul>
                 <ul class="notice_list">
@@ -304,7 +304,7 @@
                     <li>
                         <dl>
                             <dd>
-                                <a href="main_notice.html?bo_table=notice">
+                                <a href="main_notice.jsp?bo_table=notice">
                                     <i class="fas fa-edit" aria-hidden="true"></i>
                                     <p>공지사항</p>
                                 </a>
