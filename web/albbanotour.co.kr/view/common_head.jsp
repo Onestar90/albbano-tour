@@ -50,15 +50,14 @@
 <link rel="stylesheet" href="../front_util/css/magnific-popup4771.css?v=181016">
 <link rel="stylesheet" href="../front_util/css/style_a.css?v=181001">
 <link rel="stylesheet" href="../front_util/css/style_skin4771.css?v=181016">
-<!-- 외부 CSS 적용 끝 -->
-
-<!-- 파비콘 설정 -->
-<link rel="icon" type="image/png" href="/favicon.png"/>
-
 <!-- 사이드바 폰트 시작 -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 <!-- 사이드바 폰트 종료 -->
+<!-- 외부 CSS 적용 끝 -->
+
+<!-- 파비콘 설정 -->
+<link rel="icon" type="image/png" href="/favicon.png"/>
 
 <!-- 스크립트 로드 시작 -->
 <script src="../front_util/js/jquery-1.8.3.min.js"></script>

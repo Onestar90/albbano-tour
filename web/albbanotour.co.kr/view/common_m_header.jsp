@@ -9,7 +9,7 @@
 <!--모바일 시작 비로그인-->
 <div id="mobile_header">
     <div class="inner">
-        <h1><a href="index.html"><img src="../front_util/images/top_logo_m.png" alt="로고" title="로고"></a></h1>
+        <h1><a href="index.jsp"><img src="../front_util/images/top_logo_m.png" alt="로고" title="로고"></a></h1>
         <ul class="m_gnb">
             <li class="category"><a href="#none" class="qbt" title="전체메뉴열기">
                 <i class="fa fa-outdent" aria-hidden="true"></i></a>
@@ -34,11 +34,11 @@
     </div>
 
     <!-- 모바일 로그인-->
-    <!--    <div id="hd_login_msg">아이디님 로그인 중 <a href="../index.html">로그아웃</a></div>-->
+    <!--    <div id="hd_login_msg">아이디님 로그인 중 <a href="../index.jsp">로그아웃</a></div>-->
 
     <!--    <div id="mobile_header">-->
     <!--        <div class="inner">-->
-    <!--            <h1><a href="../index.html"><img src="../theme/cmtour/html/image/top_logo_m.png" alt="로고" title="로고"></a></h1>-->
+    <!--            <h1><a href="../index.jsp"><img src="../theme/cmtour/html/image/top_logo_m.png" alt="로고" title="로고"></a></h1>-->
     <!--            <ul class="m_gnb">-->
 
     <!--                <li class="category">-->
@@ -67,7 +67,7 @@
     <!--            <br>-->
     <!--            <span style="color:#fff;">여행자님!</span>-->
     <!--            <div style="margin-top:10px; margin-bottom:10px;">-->
-    <!--                <a href="../index.html">로그아웃</a>-->
+    <!--                <a href="../index.jsp">로그아웃</a>-->
     <!--                <a href="edit_profile.jsp">정보수정</a>-->
     <!--            </div>-->
     <!--        </div>-->

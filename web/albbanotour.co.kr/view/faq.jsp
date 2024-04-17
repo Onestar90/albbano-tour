@@ -12,8 +12,8 @@
     <title>자주하시는 질문 | 알빠노관광</title>
     <script>
         // 자바스크립트에서 사용하는 전역변수 선언
-        var g5_url = "index.html";
-        var g5_bbs_url = "index.html";
+        var g5_url = "index.jsp";
+        var g5_bbs_url = "index.jsp";
         var g5_is_member = "";
         var g5_is_admin = "";
         var g5_is_mobile = "";
@@ -40,7 +40,7 @@
     <div id="sub_menu">
         <div class="sub_location">
             <div>
-                <div class="cen"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></div>
+                <div class="cen"><a href="index.jsp"><i class="fa fa-home" aria-hidden="true"></i></a></div>
                 <ul class="">
                     <li>
                         <span>고객센터</span>
@@ -74,7 +74,7 @@
 
     <div id="sub_tit">
         <div class="path">
-            <li><a href="index.html"><span class="ic-home"><i></i></span></a></li>
+            <li><a href="index.jsp"><span class="ic-home"><i></i></span></a></li>
             <li>고객센터</li>
             <li></li>
             <li>자주하시는 질문</li>

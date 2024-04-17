@@ -328,7 +328,7 @@ strong{font-weight:500;}
 
 #comm_wrap { width:100%; min-width:320px; padding-top:50px; margin:50px auto;  }
 #comm_wrap .comm_area { width:100%; max-width:1200px;margin:0 auto; }
-/*#comm_wrap .cs_box {float:left; width:330px; height:250px; padding:30px; margin-right:20px; background:#9d0d0d url('../../../albbanotour/html/image/copy_bnr_back.html') no-repeat right bottom; background-size:cover; overflow:hidden; }*/
+#comm_wrap .cs_box {float:left; width:330px; height:250px; padding:30px; margin-right:20px; background:#9d0d0d url('../../../albbanotour/html/image/copy_bnr_back.html') no-repeat right bottom; background-size:cover; overflow:hidden; }
 #comm_wrap .cs_box li {color:#fff;  font-size:1.5em; }
 #comm_wrap .cs_box li i { color:#fff;  font-size:2em; opacity:1; }
 #comm_wrap .cs_box li strong { display:block; color:#fff; font-size:1.5em; font-weight:400; margin-top:20px;}
@@ -777,7 +777,7 @@ tbb{width:100%; border-top:1px solid #333; border-collapse:collapse; background:
 #bo_sch #sfl{width:19%;}
 #bo_sch .sch_input{width:65%;}
 .select_bo_cate {width: 100%;	margin:0 auto;	 padding:0; display: block;	height: 40px;		border: 1px solid #ddd;		background: #fff;		position: relative;		text-align: left;	box-sizing:border-box; margin-bottom:20px; z-index:99999;}
-/*.select_bo_cate a.sel {color: #333;	height: 40px;	line-height: 40px;	width: 100%;	display: block;		background: url(../../../daontheme_ver2_01/img/select.html) no-repeat top right;	font-size: 1em;		cursor: pointer;	text-indent:15px;}*/
+.select_bo_cate a.sel {color: #333;	height: 40px;	line-height: 40px;	width: 100%;	display: block;		background: url(../../../daontheme_ver2_01/img/select.html) no-repeat top right;	font-size: 1em;		cursor: pointer;	text-indent:15px;}
 .select_bo_cate a:hover {	text-decoration: none; }
 .select_bo_cate ul{display:none; width:100%; margin:0; padding:0;  background:#333; border:1px solid #333; margin-top:-1px;}
 .select_bo_cate ul li{width:100%; margin:0; padding:0;	}
